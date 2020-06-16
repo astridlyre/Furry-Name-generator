@@ -217,4 +217,9 @@ footer {
   .generator {
     width: 100%;
   }
+
+  input,
+  select {
+    -webkit-appearance: none;
+  }
 }
