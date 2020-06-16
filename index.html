@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Braznaals' Furry Name Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c76e5b954c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <div class="generator">
+        <h1 class="gen-title">Braznaals' Furry Name Generator</h1>
+        <div class="output-container">
+          <span id="output"></span>
+          <button class="btn" id="clipboard">
+            <i class="fas fa-paw"></i>
+          </button>
+          <div id="success">Successfully copied!</div>
+        </div>
+        <div class="settings">
+          <div class="setting-large">
+            <label for="age">What Is The Perfect Age? (0-140)</label>
+            <input
+              type="number"
+              name="age"
+              id="age"
+              min="0"
+              max="140"
+              value="19"
+            />
+          </div>
+          <div class="setting-large">
+            <label for="mammal">Favourite Mammal:</label>
+            <select name="mammal" id="mammal" class="long">
+              <option value="small">Aye-Aye</option>
+              <option value="large">American Black Bear</option>
+              <option value="xtrabig">American Bison</option>
+              <option value="medium">Arctic Fox</option>
+              <option value="medium">Human</option>
+              <option value="medium">Leopard Cat</option>
+              <option value="medium">Dingo</option>
+              <option value="small">Ground Squirrel</option>
+              <option value="large">Plains Zebra</option>
+              <option value="small">Crab-eating Raccoon</option>
+              <option value="small">Black-eared Opossum</option>
+              <option value="medium">South American Coati</option>
+              <option value="small">Eqyptian Fruit Bat</option>
+              <option value="small">Long-tailed Chinchilla</option>
+              <option value="small">Utah Prairie Dog</option>
+              <option value="small">Common Degu</option>
+              <option value="small">Kinkajou</option>
+              <option value="medium">Normal Raccoon</option>
+              <option value="medium">Mexican Prairie Dog</option>
+              <option value="sagittarius">Sagittarius Zack the Yak</option>
+              <option value="large">Eurasian Elk</option>
+              <option value="xtrabig">Blue Whale</option>
+              <option value="medium">Red Fox</option>
+              <option value="large">Capybara</option>
+              <option value="medium">Ocelot</option>
+              <option value="xtrabig">Brown Bear</option>
+              <option value="medium">Fennec Fox</option>
+              <option value="small">Sugar Glider</option>
+              <option value="medium">Black Tailed Prairie Dog</option>
+              <option value="medium">Platypus</option>
+            </select>
+          </div>
+          <div class="setting-large">
+            <label for="alignment">Alignment:</label>
+            <select name="alignment" id="alignment" class="long">
+              <option value="good">Lawful Good</option>
+              <option value="good">Neutral Good</option>
+              <option value="good">Chaotic Good</option>
+              <option value="neutral">Lawful Neutral</option>
+              <option value="neutral">True Neutral</option>
+              <option value="neutral">Chaotic Neutral</option>
+              <option value="evil">Lawful Evil</option>
+              <option value="evil">Neutral Evil</option>
+              <option value="evil">Chaotic Evil</option>
+            </select>
+          </div>
+          <div class="setting">
+            <label for="sex-thing">Make It Sexy</label>
+            <label class="checkmark-container">
+              <input
+                type="checkbox"
+                name="sex-thing"
+                id="sex-thing"
+                checked="checked"
+              />
+              <span class="checkmark"></span>
+            </label>
+          </div>
+          <div class="setting">
+            <label for="cool">I Would Describe Myself As Cool</label>
+            <label class="checkmark-container">
+              <input type="checkbox" name="cool" id="cool" checked="checked" />
+              <span class="checkmark"></span>
+            </label>
+          </div>
+        </div>
+        <button class="btn btn-large" id="generate">
+          What Is My Furry Name?
+        </button>
+      </div>
+    </main>
+    <footer>
+      <h6 class="copy">Project made for Braznaals by Astrid Lyre</h6>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
